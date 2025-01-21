@@ -273,7 +273,8 @@ private List<Libro> getLibroAutorBD(String titulo) {
 
 
 
-	private List<Autor> getAutorBD( String nombre) {
+	private List<Autor> getAutorBD( String nombre)
+	{
 		return autorRepository.findByNombre(nombre);
 	}
 
